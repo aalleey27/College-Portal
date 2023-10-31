@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.containerr {
+    background-image: url("/assets/images/login-bg.jpg");
+    width: 100%;
+    height: 99vh;
+}
+
+.background-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 99vh;
+    position: absolute;
+}
+
+.main-login{
+    width: 30%;
+    margin: 0 auto;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<   Login CSS>>>>>>>>>>>>>>>>>>>>> */
+
+.content i {
+    margin-bottom: 41px;
+  }
+  
+  .container {
+    top: 10%;
+    position: relative;
+    border-radius: 10px;
+    padding: 50px 40px 20px 40px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #737373;
+    border: 1px solid rgb(219, 219, 219);
+    text-align: center;
+    background: whitesmoke;
+    height: 80vh;
+  }
+  
+  .container svg {
+    width: 16px;
+    height: 70%;
+  }
+  
+  .content__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  
+  .content__inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  
+  .content__form label {
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-width: 268px;
+    height: 38px;
+    background: rgb(245, 243, 243);
+    border-radius: 3px;
+  }
+  
+  .content__form span {
+    position: absolute;
+    text-overflow: ellipsis;
+    transform-origin: left;
+    font-size: 12px;
+    left: 8px;
+    pointer-events: none;
+    transition: transform ease-out .1s
+  }
+  
+  .content__form input {
+    width: 100%;
+    background: inherit;
+    border: 0;
+    outline: none;
+    padding: 9px 8px 7px 8px;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  
+  .content__form input:valid+span {
+    transform: scale(calc(10 / 12)) translateY(-10px);
+  }
+  
+  .content__form input:valid {
+    padding: 14px 0 2px 8px;
+    font-size: 12px;
+  }
+  
+  .content__or-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    column-gap: 18px;
+    margin-top: 18px;
+  }
+  
+  .content__or-text span:nth-child(3),
+  .content__or-text span:nth-child(1) {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+  }
+  
+  .content__forgot-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+    row-gap: 21px;
+  }
+  
+  .content__forgot-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #00376b;
+  }
+  
+  .content__forgot-buttons button:first-child {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .content__form button {
+    background: rgb(0, 149, 246);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 16px;
+    cursor: pointer;
+  }
+  
+  .content__form button:hover {
+    background: rgb(24, 119, 242);
+  }
+  
+  .content__form button:active:not(:hover) {
+    background: rgb(0, 149, 246);
+    opacity: .7;
+  }
+
+
+
+  .navbarr {
+    height: 10vh;
+
+  }
+
+ 
+  .anchor a {
+    margin: 50px 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: purple;
+    font-size: 40px;
+  }
+
+ 
+  .back-image {
+    background-image: url('/assets/images/body-background.png') ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+
+
+  .container-image {
+    display: flex;
+    height: 80vh;
+    width: 90%;
+    margin: 0 auto;
+    /* border: 3px solid yellow; */
+  }
+
+  .left-area {
+    width: 48%;
+    height: 100%;
+    position: relative;
+    float: left;
+   
+  }
+
+  .right-area {
+    width: 48%;
+    height: 100%;
+    position: relative;
+    float: right;
+   
+    justify-content: space-around;
+  }
+  #main-image {
+    position: relative;
+    float: right;
+    right: 0;
+    width: 70%;
+  }
+  .text-main {
+    width: 80%;
+    height: 50%;
+    
+    position: relative;
+    top: 28%;
+    left: 10%;
+
+  }
+  .text-main h2 {
+    margin: 0 auto;
+    position: relative;
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  .text-main p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 50px;
+  }
+
+  .text-main button {
+    position: relative;
+    left: 1em;
+    padding: 17px;
+    width: 200px;
+  }
+
+  #logo-m {
+    width: 4%;
+  }
+
+  .model-but {
+    position: relative;
+    float: right;
+    right: 1px;
+  }
+  .close-btn {
+    width: 100px !important;
+  }
+
+  @media only screen and (max-width: 900px) {
+    #logo-m {
+      width: 12%;
+    position: relative;
+    left: 0px !important;
+    } 
+
+    .navbarr h1 {
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .left-area {
+      width: 91%;
+      height: 100%;
+      position: relative;
+      float: left;
+  }
+  .container-image {
+    display: flex;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    /* border: 3px solid yellow; */
+    flex-wrap: wrap;
+}
+.right-area {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  float: right;
+  justify-content: space-around;
+}
+#main-image {
+  position: relative;
+  /* float: right; */
+  right: 26px;
+  width: 79%;
+}
+  }
+
+
+
+
+
+
+  #loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+}
+
+#loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
