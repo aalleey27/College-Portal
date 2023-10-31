@@ -1,0 +1,212 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+}
+
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+.navbar {
+    background-color: rgb(27, 27, 27) !important;
+}
+.ccontainer {
+    display: flex;
+}
+
+.left-area {
+    position: relative;
+    display: block;
+    height: 90vh;
+    width: 320px; 
+    background-color: rgb(27, 27, 27);
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+.sel-button {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    background: transparent;
+    outline: none;
+}
+
+.sel-button i {
+    height: 40px;
+    margin: 10px;
+}
+
+.right-container {
+    width: 80vw;
+   
+    height: 90vh;
+}
+.uppar-area {
+    height: 12vh;
+    width: 100%;
+    border: 1px solid black;
+}
+.uppar-heading {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    
+}
+.uppar-heading h3, h5 {
+    margin: 5px;
+    color: rgb(231, 180, 180);
+}
+.uppar-heading  h5 {
+    margin: 5px;
+    color: rgb(231, 180, 180);
+}
+
+.mid-area {
+    height: 20vh;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.buttons:hover {
+    background-color: #a741da;
+}
+
+.an-click {
+    width: 250px;
+    height: 100px;
+    background-color: #a24dcc;
+    border-radius: 5px;
+
+} 
+.an-click a {
+    text-decoration: none;
+    color: white ;
+    justify-content: center;
+    align-items: center;
+}
+.an-click a h4 {
+    position: relative;
+    left: 40%;
+    top: 20%;
+    margin: 0 auto;  
+}
+#std-im {
+    width: 70px;
+    position: absolute;
+}
